@@ -1,0 +1,2 @@
+# design_pattern_go
+オライリーのデザインパターンをGolangで実装する
