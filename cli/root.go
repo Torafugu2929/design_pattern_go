@@ -13,4 +13,5 @@ var RootCmd = &cobra.Command{
 
 func init() {
 	RootCmd.AddCommand(MockCmd)
+	RootCmd.AddCommand(DuckSimulatorCmd)
 }
