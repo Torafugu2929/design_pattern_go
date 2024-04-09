@@ -6,19 +6,7 @@
 go build -o bin/cmd/design-pattern-go ./cmd/main.go
 ```
 
-## usage
-```
-Usage:
-  design-pattern-go [command]
-
-Available Commands:
-  completion  Generate the autocompletion script for the specified shell
-  help        Help about any command
-  mock        Mock of the command
-
-Flags:
-  -h, --help      help for design-pattern-go
-  -v, --version   version for design-pattern-go
-
-Use "design-pattern-go [command] --help" for more information about a command.
-```
+## Usage
+|Chapter|パターン名|コマンド|説明|
+|--|--|--|--|
+|Chapter1|Strategyパターン|`design-pattern-go duck-simulator [duckname1 duckname2 ...]`| duckname には `MalladDuck`, `RubberDuck`, `ExtremeDuck` が入る |
